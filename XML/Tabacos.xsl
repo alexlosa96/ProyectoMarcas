@@ -6,6 +6,7 @@
                 <title>Tabacos</title>
                 <meta charset="utf-8"/>
                 <link rel="stylesheet" type="text/css" href="../CSS/Tabacos.css"/>
+                <script type="text/javascript" src="../JS/dark.js"></script>
                 <style>
                     * {
                     box-sizing: border-box;
@@ -15,6 +16,7 @@
             <body>
                 
                 <header>
+                    <button onclick="myFunction()">Activar Modo Oscuro</button>
                     <nav>
                         <ul>
                             <a href="../index.html">Inicio</a>
