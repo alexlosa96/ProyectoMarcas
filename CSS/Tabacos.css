@@ -11,6 +11,11 @@ body {
   color: white;
 }
 
+.dark-mode article {
+  background-color: black;
+  color: white;
+}
+
 button {
   position: relative;
     left: 600px;
