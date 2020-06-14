@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Contacto</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../CSS/Contacto.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <ul>
+      <a href="../index.html">Inicio</a>
+      <a href="../HTML/Cachimbas.html">Cachimbas</a>
+      <a href="../HTML/Accesorios.html">Accesorios</a>
+      <a href="../HTML/Tabacos.html">Tabacos</a>
+      <a href="../HTML/Contacto.html">Contacto</a>
+    </ul>
+  </nav>
+</header>
+
+<section>
+  
+  
+  <article>
+    <h2>Formulario General Sobre todo lo Explicado</h2>
+<p>Con este formulario me gustaría que mandarais despues de todo lo mostrado anteriormente que producto elegiriais de todo lo enseñado y yo os podría mandar una recomendación tomando en cuenta vuestras especificaciones.</p>
+
+<div class="container">
+  <form action="mail-script.php">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">Nombre</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Nombre..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Apellidos</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Apellidos..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="CAutonoma">Comunidad Autónoma</label>
+    </div>
+    <div class="col-75">
+      <select id="country" name="country">
+        <option value="andalucia">Andalucía</option>
+        <option value="aragon">Aragón</option>
+        <option value="asturias">Asturias</option>
+        <option value="baleares">Baleares</option>
+        <option value="canarias">Canarias</option>
+        <option value="cantabria">Cantabria</option>
+        <option value="castillalamancha">Castilla La Mancha</option>
+        <option value="castillayleon">Castilla y León</option>
+        <option value="cataluña">Cataluña</option>
+        <option value="extremadura">Extremadura</option>
+        <option value="galicia">Galicia</option>
+        <option value="larioja">La Rioja</option>
+        <option value="madrid">Madrid</option>
+        <option value="murcia">Murcia</option>
+        <option value="navarra">Navarra</option>
+        <option value="paisvasco">País Vasco</option>
+        <option value="valencia">Comunidad Valenciana</option>
+        <option value="ceuta">Ceuta</option>
+        <option value="melilla">Melilla</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="TCachimba">Tipo de Cachimba</label>
+    </div>
+    <div class="col-75">
+      <select id="tipo" name="tipo">
+        <option value="t1">Tradicional 1 Toma</option>
+        <option value="t2">Tradicional 2 Toma</option>
+        <option value="t3">Tradicional 3 Toma</option>
+        <option value="t4">Tradicional 4 Toma</option>
+        <option value="m1">Moderna 1 Toma</option>
+        <option value="m2">Moderna 2 Toma</option>
+        <option value="m3">Moderna 3 Toma</option>
+        <option value="m4">Moderna 4 Toma</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="mangueras">Mangueras</label>
+    </div>
+    <div class="col-75">
+      <select id="manguera" name="manguera">
+        <option value="nolavables">No Lavables</option>
+        <option value="lavables">Lavables</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="mmanguera">Material Mangueras</label>
+    </div>
+    <div class="col-75">
+      <select id="material" name="material">
+        <option value="nammornarbish">Nammor o Narbish</option>
+        <option value="silicona">Silicona</option>
+        <option value="pvc">PVC</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="boquilla">Boquillas</label>
+    </div>
+    <div class="col-75">
+      <select id="boquilla" name="boquilla">
+        <option value="aluminio">Aluminio</option>
+        <option value="plastico">Plástico</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="ttabaco">Gestores de Calor</label>
+    </div>
+    <div class="col-75">
+      <select id="gestores" name="gestores">
+        <option value="provost">Provost</option>
+        <option value="kaloud">Kaloud</option>
+        <option value="screen">Screen</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="accesorio">Accesorio</label>
+    </div>
+    <div class="col-75">
+      <select id="accesorio" name="accesorio">
+        <option value="cubrevientosS">Cubrevientos Si</option>
+        <option value="cubrevientosN">Cubreviento No</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="ttabaco">Tipo de Tabaco</label>
+    </div>
+    <div class="col-75">
+      <select id="tabaco" name="tabaco">
+        <option value="tnegro">Tabaco Negro</option>
+        <option value="trubio">Tabaco Rubio</option>
+        <option value="tpiedras">Tabaco Piedras</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="adicional">Comentarios</label>
+    </div>
+    <div class="col-75">
+      <textarea id="comentario" name="comentario" placeholder="Comentario Adicional.." style="height:200px"></textarea>
+    </div>
+  </div>
+  <div class="row">
+    <input type="button" value="Enviar">
+  </div>
+  </form>
+</div>
+  </article>
+  <aside>
+    <h1>SOBRE MI:</h1>
+    <p>Mi nombre es Alejandro Losa y con esta página me gustaria enseñaros algo que me gusta desde hace años y que poco a poco se esta integrando en nuestra sociedad actual en el ambito del ocio en particular. Las cachimbas.</p>
+  </aside>
+</section>
+
+<footer>
+  <p>Correo de contacto:alexandriu96@hotmail.com</p>
+  <div id="RRSS">
+    <a href="https://www.instagram.com/" target="_blank"><img src="../IMAGES/instagram.png"></a>
+      <a href="https://www.facebook.com/" target="_blank"><img src="../IMAGES/facebook.png"></a>
+      <a href="https://twitter.com/?lang=es" target="_blank"><img src="../IMAGES/twitter.png"></a>
+      <a href="https://www.youtube.com/?hl=es&gl=ES" target="_blank"><img src="../IMAGES/youtube.png"></a>
+      <a href="https://www.google.com/intl/es-419/gmail/about/" target="_blank"><img src="../IMAGES/google.png"></a>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,108 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  background-image: url(../IMAGES/banner.jpg);
+}
+
+nav {
+  margin-left: 390px;
+      width: 80%;
+    height: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a:link, a:visited {
+  
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: black;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  background-color: #f1f1f1;
+  width: 80%;
+}
+
+article h1 {
+  text-align: center;
+    font-size: 26px;
+}
+
+.TabacoNegro {
+  position: relative;
+  left: 45px;
+}
+
+.Piedra {
+  position: relative;
+  left: 80px;
+}
+
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+aside {
+  float: right;
+  
+  padding: 20px;
+  width: 20%;
+}
+
+
+footer{
+  background-image: url(../IMAGES/banner.jpg); 
+  padding: 10px;
+  text-align: center;
+  color: white;
+  display: block;
+  width: 100%;
+}
+
+footer p {
+  text-align: initial;
+}
+
+
+
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+  }
+  aside {
+    display:none;
+  }
+  article video{
+    left: 0px;
+    width: 92%;
+  }
+
+}

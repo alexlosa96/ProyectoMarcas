@@ -1,0 +1,135 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  color: black;
+
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+button {
+	position: relative;
+    left: 600px;
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  background-image: url(../IMAGES/banner.jpg);
+}
+
+nav {
+  margin-left: 390px;
+      width: 80%;
+    height: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a:link, a:visited {
+  
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: black;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  
+  width: 80%;
+}
+
+.shisha1 {
+    width: 390px;
+    height: 598px;
+    background: lightblue;
+    transition: 1s ease;
+    position: absolute;
+    bottom: -264px;
+    opacity: 0.50;
+}
+
+.shisha1:hover {
+  width: 400px;
+}
+
+article h1 {
+  text-align: center;
+    font-size: 26px;
+}
+
+article video {
+	position: relative;
+    left: 90px;
+}
+
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+aside {
+  float: right;
+  background-color: grey;
+  padding: 20px;
+  width: 20%;
+}
+
+
+footer{
+  background-image: url(../IMAGES/banner.jpg); 
+  padding: 10px;
+  text-align: center;
+  color: white;
+  display: block;
+  width: 100%;
+}
+
+footer p {
+  text-align: initial;
+}
+
+
+
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+  }
+  aside {
+    display:none;
+  }
+  article video{
+    left: 0px;
+    width: 92%;
+  }
+
+}
