@@ -5,13 +5,12 @@
             <head>
                 <title>Tabacos</title>
                 <meta charset="utf-8"/>
-                    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-                        <link rel="stylesheet" href="../CSS/Tabacos.css"/>
-                            <style>
-                                * {
-                                box-sizing: border-box;
-                                }
-                            </style>
+                <link rel="stylesheet" type="text/css" href="../CSS/Tabacos.css"/>
+                <style>
+                    * {
+                    box-sizing: border-box;
+                    }
+                </style>
             </head>
             <body>
                 
@@ -40,21 +39,21 @@
                             <h1><xsl:value-of select="h1"></xsl:value-of></h1>
                             <p><xsl:value-of select="p"></xsl:value-of></p>
                             <img src="../IMAGES/tabaco_negro.jpg" alt=""/>
-                                <iframe class="TabacoNegro" width="560" height="340" src="https://www.youtube.com/embed/xfDC3H29Q5o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                            <iframe class="TabacoNegro" width="560" height="340" src="https://www.youtube.com/embed/xfDC3H29Q5o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
                         </xsl:for-each>
                         
                         <xsl:for-each select="tabacos/taba">
                             <h1><xsl:value-of select="h1"></xsl:value-of></h1>
                             <p><xsl:value-of select="p"></xsl:value-of></p>
                             <img src="../IMAGES/tabaco_rubio.jpg" alt="" width="350px"/>
-                                <img src="../IMAGES/tabaco_rojo.jpg" alt="" width="698px"/>
+                            <img src="../IMAGES/tabaco_rojo.jpg" alt="" width="698px"/>
                         </xsl:for-each>
                         
                         <xsl:for-each select="tabacos/tab">
                             <h1><xsl:value-of select="h1"></xsl:value-of></h1>
                             <p><xsl:value-of select="p"></xsl:value-of></p>
                             <img src="../IMAGES/tabaco_piedra2.jpg" alt="" width="430px"/>
-                                <iframe class="Piedra" width="560" height="430" src="https://www.youtube.com/embed/2wG7piMmgU0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                            <iframe class="Piedra" width="560" height="430" src="https://www.youtube.com/embed/2wG7piMmgU0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
                         </xsl:for-each>
                         
                     </article>
@@ -73,8 +72,7 @@
                         <a href="https://www.youtube.com/" target="_blank"><img src="../IMAGES/youtube.png"/></a>
                         <a href="https://www.google.com/intl/es-419/gmail/about/" target="_blank"><img src="../IMAGES/google.png"/></a>
                     </div>
-                </footer>
-                
+                </footer>  
             </body>
         </html>
     </xsl:template>
