@@ -12,7 +12,7 @@ header {
   font-size: 35px;
   color: white;
   background-image: url(../IMAGES/banner.jpg);
-  height: fit-content;
+  height: 30%;
 }
 
 nav {
